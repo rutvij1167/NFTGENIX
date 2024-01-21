@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFTGENIX - Discover rate collection or Arts & NFTs</title>
+    <meta name="title" content="NFTGENIX - Discover rate collection or Arts & NFTs">
+    <link rel="shortcut icon" href="./assets/images/nadiva (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        .about {
+            padding: 100px 0 20px 0;
+            text-align: center;
+        }
+
+        .about h1 {
+            color: white;
+            font-size: 5rem;
+            margin-bottom: 40px;
+        }
+
+        .about p {
+            font-size: 1.5rem;
+            color: #fffdfd;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .about-info {
+            margin: 2rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: left;
+        }
+
+        .about-img {
+            width: 20rem;
+            height: 20rem;
+
+        }
+
+        .about-img img {
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            object-fit: contain;
+        }
+
+        .about-info p {
+            font-size: 2rem;
+            margin: 0 2rem;
+            text-align: justify;
+        }
+
+        .cbutton {
+            border: none;
+            outline: 0;
+            padding: 10px;
+            margin: 2rem;
+            color: #ffffff;
+            font-size: 1.5rem;
+            text-align: center;
+            cursor: pointer;
+            width: 15rem;
+            border-radius: 4px;
+        }
+
+        .cbutton:hover {
+            background-color: #ff0404;
+        }
+
+        .team {
+            padding: 30px 0;
+            text-align: center;
+        }
+
+        .team h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .team-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 25px;
+        }
+
+        .card {
+            align-content: center;
+            background-color: rgb(24, 24, 24);
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+            width: 50rem;
+            height: 40  rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+        }
+
+        .card-img {
+            padding-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 20rem;
+            height: 11.5rem;
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+        .card-info button {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .card-name {
+            color: #ffffff;
+            font-size: 4rem;
+            margin: 10px 0;
+        }
+
+        .card-role {
+            font-size: 2rem;
+            color: #e0b5b5;
+            margin: 5px 0;
+        }
+
+        .card-email {
+            font-size: 2rem;
+            color: #f1c4c4;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                display: block;
+            }
+
+            .logo {
+                text-align: center;
+            }
+
+            .nav-links {
+                margin-top: 1rem;
+                justify-content: space-between;
+            }
+
+            .nav-links li {
+                margin-right: 0;
+            }
+
+            .about h1 {
+                font-size: 2rem;
+            }
+
+            .about p {
+                font-size: 0.9rem;
+            }
+
+            .about-info {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-img {
+                width: 60%;
+                height: 60%;
+                margin-bottom: 1rem;
+            }
+
+            .about-info p {
+                margin: 1rem 2rem;
+            }
+
+            .about-info button {
+                margin: 1rem 2rem;
+                width: 10rem;
+            }
+
+            .team {
+                margin: 0 1rem;
+            }
+        }
+
+    </style>
+</head>
+
+<body id="top">
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#">
+                <img src="./assets/images/nFT-removebg-preview.png" width="40" height="40" alt="NFTGENIX home"
+                    class="logo-small">
+                <img src="./assets/images/NFT__1_-removebg-preview.png" width="260" height="70" alt="NFTGENIX home"
+                    class="logo">
+            </a>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+                    <li>
+                        <a href="index.html" class="navbar-link label-lg link:hover active-icon">Home</a>
+                    </li>
+                    <li>
+                        <a href="explore.html" class="navbar-link label-lg link:hover">Explore</a>
+                    </li>
+                    <li>
+                        <a href="aboutus.html" class="navbar-link label-lg link:hover">About Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-action">
+                <div class="header-action">
+                    <div class="dropdown">
+                        <button class="btn-icon primary dropbtn" aria-label="wallet">
+                            <ion-icon name="wallet-outline"></ion-icon>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Wallet</a>
+                            <a href="#">Archived</a>
+                        </div>
+                    </div>
+                    <div class="dropdown">
+                        <button class="btn-icon primary dropbtn" aria-label="contact">
+                            <ion-icon name="person-outline"></ion-icon>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#">Setting</a>
+                            <a href="#">Logout</a>
+                        </div>
+                    <button class="nav-toggle-btn" aria-label="menu toggle" data-nav-toggler>
+                        <ion-icon name="menu-outline" aria-hidden="true" class="default-icon"></ion-icon>
+                        <ion-icon name="close-outline" aria-hidden="true" class="active-icon"></ion-icon>
+                    </button>
+                </div>
+            </div>
+    </header>
+    <main>
+        <section class="about">
+            <h1>About Us</h1>
+            <p style="font-weight: bold">
+                NFTGENIX is a leading platform in NFT Marketplace
+            </p>
+            <div class="about-info">
+                <div class="about-img">
+                    <img src="./assets/images/nadiva (1).png" alt="NFTGENIX">
+                </div>
+                <br>
+                <div class="information">
+                    <p> Welcome to our NFT marketplace, where creativity meets blockchain innovation. At our core,
+                        we are a digital haven for artists, collectors, and enthusiasts alike, providing a seamless
+                        platform to explore,
+                        showcase, and trade unique non-fungible tokens. With a commitment to empowering creators and
+                        fostering a vibrant
+                        community, we invite you to join us on this groundbreaking journey into the world of digital art
+                        and ownership.
+                        Elevate your digital experience with us where every NFT tells a story, and every transaction is
+                        a step towards
+                        a decentralized future.
+                    </p>
+                    <a href="index.html"><button style="color: #cfeff7; padding-left: 20px;">Read More...</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <h1 style="font-size: 5rem; color: #fffdfd;">Meet Our Team</h1>
+            <div class="team-cards">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/images/download (1).jpg" alt="rutvij">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">V.RUTVIJ REDDY</h2>
+                        <p class="card-role">CEO and Founder</p>
+                        <p class="card-email">vakatirutvij@gmail.com</p>
+                        <p><button class="cbutton">Contact</button></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/images/images (7).jpg" alt="User 2">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">CH.SAI PRANITH</h2>
+                        <p class="card-role">Co-Founder</p>
+                        <p class="card-email">pranithsaicholleti@gmail.com</p>
+                        <p><button class="cbutton">Contact</button></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/images/images (9).jpg" alt="User 3">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">D.SAI PRANEETH</h2>
+                        <p class="card-role">Co-Founder</p>
+                        <p class="card-email">dsaipraneethr@gmail.com</p>
+                        <p><button class="cbutton">Contact</button></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="./assets/images/images (5).jpg" alt="User 4">
+                    </div>
+                    <div class="card-info">
+                        <h2 class="card-name">SAINATH KORALLA</h2>
+                        <p class="card-role">Co-Founder</p>
+                        <p class="card-email">koralla.sainathreddy@gamil.com</p>
+                        <p><button class="cbutton">Contact</button></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section newsletter" aria-lab el="newsletter">
+            <div class="container">
+                <div class="newsletter-card">
+                    <div>
+                        <h3 class="headline-md text-center">Subscribe to Newsletter!</h3>
+                        <p class="body-md card-text text-center">
+                            Subscribe to get latest updates and information.
+                        </p>
+                    </div>
+                    <div class="input-wrapper">
+                        <input type="email" name="email_address" placeholder="Enter your email :" required
+                            class="input-field">
+                        <button class="btn btn-primary">Subscribe</button>
+                    </div>
+                    <ion-icon name="mail-open-outline" aria-hidden="true" class="bg-icon bg-icon-1"></ion-icon>
+                    <ion-icon name="document-text-outline" aria-hidden="true" class="bg-icon bg-icon-2"></ion-icon>
+                </div>
+            </div>
+        </section>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="section footer-top">
+            <div class="container">
+                <div class="footer-brand">
+                    <a href="#">
+                        <img src="./assets/images/NFT__1_-removebg-preview.png" width="126" height="28" loading="lazy"
+                            alt="NFTGENIX home">
+                    </a>
+                    <p class="body-md footer-text">
+                        Buy, sell and discover exclusive digital assets by the top artists of NFTs world.
+                    </p>
+                </div>
+                <ul class="footer-list">
+                    <li>
+                        <p class="title-lg footer-list-title">NFTGENIX</p>
+                    </li>
+                    <li>
+                        <a href="explore.html" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">Explore Item</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">Live Auction</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">Activities</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">Wallets</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+                            <span class="span">Creators</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <p class="title-lg footer-list-title">Useful Links</p>
+                    </li>
+                    <li>
+                        <a href="aboutus.html" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">About Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">Blog & News</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+
+                            <span class="span">Terms & Condition</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+                            <span class="span">Privacy policy</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+                            <span class="span">Login</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">
+                            <ion-icon name="chevron-forward"></ion-icon>
+                            <span class="span">Contact Us</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer-list">
+                    <ul>
+                        <li>
+                            <p class="title-lg footer-list-title">Download the NFTGENIX app</p>
+                        </li>
+                        <li class="footer-list-item">
+                            <a href="#">
+                                <img src="./assets/images/appstore.png" width="134" height="40" loading="lazy"
+                                    alt="Download Metalink app from AppStore">
+                            </a>
+                            <a href="#">
+                                <img src="./assets/images/playstore.png" width="134" height="40" loading="lazy"
+                                    alt="Download Metalink app from PlayStore">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <p class="title-lg footer-list-title">Contact Details</p>
+                        </li>
+                        <li class="footer-list-item">
+                            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+                            <a href="mailto:nftgenix@nft.com" class="footer-link">nftgenix@nft.com</a>
+                        </li>
+                        <li class="footer-list-item">
+                            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+                            <a href="tel:+111 234-567-891" class="footer-link">+111 234-567-891</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="body-md text-center copyright">
+                    &copy; 2023<span class="span"> by bladerunnerz</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <a href="#top" class="back-to-top btn-icon" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+    <div class="body-bg-shape"></div>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
